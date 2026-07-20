@@ -1,10 +1,19 @@
 // =========================================
 // GlyCare — rotas do app
-// Adicione aqui o nome de cada nova tela
 // =========================================
+
+// Telas fora do menu (autenticação)
 export type RootStackParamList = {
-Inicio:    undefined;
-Login:     undefined;
-Cadastrar: undefined;
+  Inicio:    undefined;
+  Login:     undefined;
+  Cadastrar: undefined;
 };
- 
+
+// Telas dentro do menu lateral
+export type DrawerParamList = {
+  Perfil:         undefined;
+  EspacoFamiliar: undefined;
+  Monitorar:      undefined;
+  Relatorios:     undefined;
+  Configuracoes:  undefined;
+};
